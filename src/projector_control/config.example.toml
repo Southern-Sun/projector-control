@@ -1,0 +1,9 @@
+[projector]
+host = "192.168.88.50"
+port = 4352
+timeout = 5.0
+
+[authentication]
+password_env = "PROJECTOR_PJLINK_PASSWORD"
+# Optional plaintext fallback for unattended use; protect this file with chmod 600.
+# password = ""
